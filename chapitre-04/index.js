@@ -1,1 +1,5 @@
-console.log("Yare");
+console.log("booleans");
+
+const isAllowed = true;
+
+const isAdministrator = false;
