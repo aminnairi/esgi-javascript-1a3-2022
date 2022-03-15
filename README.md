@@ -12,9 +12,8 @@
 - [X] [Chapitre 08](./chapitre-08) : Objets
 - [X] [Chapitre 09](./chapitre-09) : Tableaux
 - [X] [Chapitre 10](./chapitre-10) : Fonctions
-- [ ] [Chapitre 11](./chapitre-11) : Constructeurs
-- [ ] [Chapitre 12](./chapitre-12) : Intervales
-- [ ] [Chapitre 13](./chapitre-13) : DOM
-- [ ] [Chapitre 14](./chapitre-14) : CSSOM
-- [ ] [Chapitre 15](./chapitre-15) : XML
-- [ ] [Chapitre 16](./chapitre-16) : XMLHttpRequest
+- [X] [Chapitre 11](./chapitre-11) : Constructeurs
+- [ ] [Chapitre 12](./chapitre-12) : DOM
+- [ ] [Chapitre 13](./chapitre-13) : CSSOM
+- [ ] [Chapitre 14](./chapitre-14) : XML
+- [ ] [Chapitre 15](./chapitre-15) : XMLHttpRequest

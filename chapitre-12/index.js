@@ -1,1 +1,1 @@
-console.log("Yare");
+console.log("DOM");
