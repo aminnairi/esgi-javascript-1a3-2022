@@ -21,3 +21,7 @@
 - [X] [Chapitre 13](./chapitre-13) : CSSOM
 - [ ] [Chapitre 14](./chapitre-14) : XML
 - [ ] [Chapitre 15](./chapitre-15) : XMLHttpRequest
+
+## Exercices
+
+- [ ] [Exercice 1](./exercice-1)
