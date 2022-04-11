@@ -1,3 +1,5 @@
+const tableBody = document.getElementById("table-body");
+
 /**
  * Le constructeur de requêtes asynchrones
  * @see https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
@@ -10,7 +12,10 @@ const request = new XMLHttpRequest();
  * @see https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestEventTarget
  */
 request.addEventListener("load", function() {
-  console.log(request.responseXML);
+  const xmlDocument = request.responseXML;
+  const champions = xmlDocument.children[0];
+
+  // afficher tout sauf les compétences
 });
 
 /**
