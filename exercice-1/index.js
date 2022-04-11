@@ -7,6 +7,9 @@ const todoInput = document.getElementById("todo-input");
 // Récupère notre liste de todos (pour l'instant vide)
 const todoList = document.getElementById("todo-list");
 
+// Récupère notre conteneur d'erreur
+const errorContainer = document.getElementById("error");
+
 // À chaque fois que l'on soumet le formulaire d'ajout d'une nouvelle todo, exécute la fonction ci-dessous
 todoForm.addEventListener("submit", function(event) {
   // Empêche que le navigateur ne recharge la page (et nous fasse perdre toutes nos todos)
@@ -14,6 +17,21 @@ todoForm.addEventListener("submit", function(event) {
 
   // Récupère la valeur du champ de texte
   const todoInputValue = todoInput.value;
+
+  if (todoInputValue.trim().length === 0) {
+    // On ajoute un message d'erreur
+    errorContainer.innerText = "Todo cannot be empty";
+
+    // On change la couleur en rouge
+    errorContainer.style.color = "red";
+    return;
+  }
+
+  // On supprime le message d'erreur
+  errorContainer.innerText = "";
+
+  // On change la couleur en noir
+  errorContainer.style.color = "black";
 
   // Créé un nouveau <li></li>
   const todoListItem = document.createElement("li");
@@ -55,14 +73,14 @@ todoForm.addEventListener("submit", function(event) {
   todoInput.focus();
 });
 
-// Supprimer un élément de la todo-list
-// Vider l'input du nouveau todo
-// Remettre le focus automatiquement sur l'input après un clic sur le bouton Add
-// Remettre le focus sur le champ de texte lorsque l'on supprime un élément
-// Quand j'essaie de mettre un todo vide, un message d'erreur doit apparaitre (en couleur rouge)
-// Quand j'ajoute une todo, le message d'erreur doit disparaitre
+// [DONE] Supprimer un élément de la todo-list
+// [DONE] Vider l'input du nouveau todo
+// [DONE] Remettre le focus automatiquement sur l'input après un clic sur le bouton Add
+// [DONE] Remettre le focus sur le champ de texte lorsque l'on supprime un élément
+// [DONE] Quand j'essaie de mettre un todo vide, un message d'erreur doit apparaitre (en couleur rouge)
+// [DONE] Quand j'ajoute une todo, le message d'erreur doit disparaitre
 // Bonus : un bouton modifier
-// Modification : input à la place du span avec mon nouveau texte
-// Modification : button save pour sauvegarder les modifications
-// Modification : button cancel pour annuler les modifications
+// Bonus : Modification : input à la place du span avec mon nouveau texte
+// Bonus : Modification : button save pour sauvegarder les modifications
+// Bonus : Modification : button cancel pour annuler les modifications
 // Bonus : trier les todos

@@ -3,9 +3,6 @@
 <!-- La version est la version du langage XML -->
 <!-- L'encodage permet d'afficher les caractères spéciaux (diacritiques) -->
 <champions>
-  <!-- Les balises orphelines n'ont pas d'enfants -->
-  <!-- Elles doivent se terminer par un slash -->
-  <meta patch="12.5" date="2022-03-22" />
   <!-- Les balises classiques peuvent contenir d'autres balises -->
   <champion side="top">
     <!-- Les balises classiques peuvent aussi contenir du texte -->
