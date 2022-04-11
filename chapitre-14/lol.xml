@@ -1,68 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <!-- L'en-tête d'un fichier XML -->
 <!-- La version est la version du langage XML -->
 <!-- L'encodage permet d'afficher les caractères spéciaux (diacritiques) -->
-<xml version="1.0" encoding="UTF-8">
-  <champions>
-    <!-- Les balises orphelines n'ont pas d'enfants -->
-    <!-- Elles doivent se terminer par un slash -->
-    <meta patch="12.5" date="2022-03-22" />
-    <!-- Les balises classiques peuvent contenir d'autres balises -->
-    <champion side="top">
-      <!-- Les balises classiques peuvent aussi contenir du texte -->
-      <name>Aatrox</name>
-      <surname>The Darkin Blade</surname>
-      <description>Once honored defenders of Shurima...</description>
-      <skills>
-        <!-- Les attributs doivent être délimités par des apostrophes ou des guillemets -->
-        <skill keybind="q">The darkin blade</skill>
-        <skill keybind="w">Infernal chains</skill>
-        <skill keybind="e">Umbral dash</skill>
-        <skill keybind="r">World ender</skill>
-      </skills>
-    </champion>
-    <champion side="mid">
-      <name>Ahri</name>
-      <surname>The nine-tailed fox</surname>
-      <description>Innately connected to the latent...</description>
-      <skills>
-        <skill keybind="q">Orb of deception</skill>
-        <skill keybind="w">Fox-fire</skill>
-        <skill keybind="e">Charm</skill>
-        <skill keybind="r">Spirit rush</skill>
-      </skills>
-    </champion>
-    <champion side="support">
-      <name>Alistar</name>
-      <surname>The minotaur</surname>
-      <description>Always a mighty warrior with a fearsome...</description>
-      <skills>
-        <skill keybind="q">Pulverize</skill>
-        <skill keybind="w">Headbutt</skill>
-        <skill keybind="e">Trample</skill>
-        <skill keybind="r">Umbreakable will</skill>
-      </skills>
-    </champion>
-    <champion side="bot">
-      <name>Caitlyn</name>
-      <surname>The sherif of Piltover</surname>
-      <description>Renowned as its finest peacekeeper...</description>
-      <skills>
-        <skill keybind="q">Piltover peacemaker</skill>
-        <skill keybind="w">Yorlde snap trap</skill>
-        <skill keybind="e">90 caliber net</skill>
-        <skill keybind="r">Ace in the hole</skill>
-      </skills>
-    </champion>
-    <champion side="jungle">
-      <name>Kha'Zix</name>
-      <surname>The voidreaver</surname>
-      <description>The Void grows, and the Void adapts—in...</description>
-      <skills>
-        <skill keybind="q">Taste their fear</skill>
-        <skill keybind="w">Void spike</skill>
-        <skill keybind="e">Leap</skill>
-        <skill keybind="r">Void assault</skill>
-      </skills>
-    </champion>
-  </champions>
-</xml>
+<champions>
+  <!-- Les balises orphelines n'ont pas d'enfants -->
+  <!-- Elles doivent se terminer par un slash -->
+  <meta patch="12.5" date="2022-03-22" />
+  <!-- Les balises classiques peuvent contenir d'autres balises -->
+  <champion side="top">
+    <!-- Les balises classiques peuvent aussi contenir du texte -->
+    <name>Aatrox</name>
+    <surname>The Darkin Blade</surname>
+    <description>Once honored defenders of Shurima...</description>
+    <skills>
+      <!-- Les attributs doivent être délimités par des apostrophes ou des guillemets -->
+      <skill keybind="q">The darkin blade</skill>
+      <skill keybind="w">Infernal chains</skill>
+      <skill keybind="e">Umbral dash</skill>
+      <skill keybind="r">World ender</skill>
+    </skills>
+  </champion>
+  <champion side="mid">
+    <name>Ahri</name>
+    <surname>The nine-tailed fox</surname>
+    <description>Innately connected to the latent...</description>
+    <skills>
+      <skill keybind="q">Orb of deception</skill>
+      <skill keybind="w">Fox-fire</skill>
+      <skill keybind="e">Charm</skill>
+      <skill keybind="r">Spirit rush</skill>
+    </skills>
+  </champion>
+  <champion side="support">
+    <name>Alistar</name>
+    <surname>The minotaur</surname>
+    <description>Always a mighty warrior with a fearsome...</description>
+    <skills>
+      <skill keybind="q">Pulverize</skill>
+      <skill keybind="w">Headbutt</skill>
+      <skill keybind="e">Trample</skill>
+      <skill keybind="r">Umbreakable will</skill>
+    </skills>
+  </champion>
+  <champion side="bot">
+    <name>Caitlyn</name>
+    <surname>The sherif of Piltover</surname>
+    <description>Renowned as its finest peacekeeper...</description>
+    <skills>
+      <skill keybind="q">Piltover peacemaker</skill>
+      <skill keybind="w">Yorlde snap trap</skill>
+      <skill keybind="e">90 caliber net</skill>
+      <skill keybind="r">Ace in the hole</skill>
+    </skills>
+  </champion>
+  <champion side="jungle">
+    <name>Kha'Zix</name>
+    <surname>The voidreaver</surname>
+    <description>The Void grows, and the Void adapts—in...</description>
+    <skills>
+      <skill keybind="q">Taste their fear</skill>
+      <skill keybind="w">Void spike</skill>
+      <skill keybind="e">Leap</skill>
+      <skill keybind="r">Void assault</skill>
+    </skills>
+  </champion>
+</champions>
