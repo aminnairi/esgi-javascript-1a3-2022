@@ -1,9 +1,24 @@
 # esgi-javascript-1a3-2022
 
+## Séances
+
+- [X] Séance #1
+- [X] Séance #2
+- [X] Séance #3
+- [X] Séance #4
+- [ ] Séance #5
+- [ ] Séance #6
+- [ ] Séance #7
+- [ ] Séance #8
+
 ## Contrôles continus
 
 - [X] Premier contrôle continu :  Mardi 22 mars 2022
 - [ ] Deuxième contrôle continu : à prévoir
+
+## Examen
+
+- [ ] À prévoir
 
 ## Sommaire
 
@@ -21,7 +36,7 @@
 - [X] [Chapitre 12](./chapitre-12) : DOM
 - [X] [Chapitre 13](./chapitre-13) : CSSOM
 - [X] [Chapitre 14](./chapitre-14) : XML
-- [ ] [Chapitre 15](./chapitre-15) : XMLHttpRequest
+- [X] [Chapitre 15](./chapitre-15) : XMLHttpRequest
 
 ## Exercices
 
