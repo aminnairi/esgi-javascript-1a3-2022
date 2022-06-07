@@ -1,6 +1,11 @@
 /* eslint-disable */
 "use strict";
 
+// À faire : afficher un chargement à l'écran tant que la requête n'est pas arrivé (utiliser le "throttling" dans la console de développeur pour simuler une connexion lente)
+// À faire : afficher une image correspondant aux conditions météorologiques actuelles (soleil s'il fait beau, pluie s'il pleut, ...)
+// À faire : Pouvoir annuler une requête envoyée au serveur OpenWeatherMap et afficher l'erreur d'annulation de requête
+// À faire : Afficher toutes les erreurs (annulation, erreur de réseau, erreur JavaScript, ...)
+
 document.getElementById("weather").addEventListener("submit", function(event) {
   const request = new XMLHttpRequest();
 
