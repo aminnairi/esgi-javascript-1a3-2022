@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.loader {
+  background-color: white;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loader--hidden {
+  display: none;
+}
+
+.loader__spinner {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-top: 10px solid lightgrey;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid lightgrey;
+  border-right: 10px solid lightgrey;
+  animation: spin 1s linear infinite forwards;
+}
+
+.loader__cancel-button {
+  margin-top: 10px;
+}
+
+.button {
+  border: none;
+  padding: 8px 16px;
+  height: 36px;
+  min-width: 64px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-family: Roboto, sans-serif;
+  background-color: #6200ee;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 0.2), 0 2px 2px 0 rgb(0 0 0 / 0.14), 0 1px 5px 0 rgb(0 0 0 / 0.12);
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.label-input {
+  display: inline-block;
+  position: relative;
+  padding: 10px 14px;
+  border-radius: 5px;
+  border: 1px solid rgba(0 0 0 / 0.87);
+}
+
+.label {
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 10px;
+  transform: translateY(-50%);
+  padding: 0 5px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.input {
+  border: none;
+  outline: none;
+  font-family: Roboto, sans-serif;
+}
+
+@keyframes spin {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

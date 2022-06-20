@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Get the weather for your city directly from your web browser anywhere in the world.">
     <title>OpenWeatherMap</title>
+    <link rel="stylesheet" href="./index.css">
   </head>
   <body>
+    <div id="loader" class="loader--hidden">
+      <div class="loader__spinner"></div>
+      <button id="cancel" class="loader__cancel-button button">Cancel</button>
+    </div>
     <form id="weather">
-      <label for="city">City</label>
-      <input id="city" type="text" placeholder="Ex: London, Barcelona, Paris, ...">
-      <button type="submit">Search</button>
+      <div class="label-input">
+        <label for="city" class="label">City</label>
+        <input class="input" id="city" type="search" placeholder="Ex: London, Barcelona, Paris, ..." autofocus required>
+      </div>
+      <button type="submit" class="button">Search</button>
     </form>
+    <small id="error"></small>
+    <div id="icon-container"></div>
     <p id="output"></p>
     <script src="./index.js"></script>
   </body>
