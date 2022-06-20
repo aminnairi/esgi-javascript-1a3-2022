@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
   <body>
+    <button id="fetch-articles">Fetch Articles</button>
+    <button id="cancel">Cancel</button>
+    <small id="loader">Loading...</small>
+    <small id="error"></small>
+    <table>
+      <thead>
+        <tr>
+          <th>Titre</th>
+          <th>Description</th>
+          <th>Aperçu</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
     <script src="./index.js"></script>
   </body>
 </html>
